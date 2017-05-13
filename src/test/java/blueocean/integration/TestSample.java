@@ -13,7 +13,7 @@ WebDriver driver;
 @Test
 public void blueOceanGit(){
 	
-	System.setProperty("webdriver.ie.driver", "C:\\Driver\\IEDriverServer\\IEDriverServer.exe");
+	System.setProperty("webdriver.ie.driver", "https://github.com/dev23kmr/IEDriver.git");
 	driver = new InternetExplorerDriver();
 	driver.get("https://www.google.com");
 	
